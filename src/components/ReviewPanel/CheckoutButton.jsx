@@ -8,7 +8,7 @@ function CheckoutButton() {
   function handleCheckout() {
     const confirmed = window.confirm(
       `Proceed to checkout?\n\nItems: ${selectedProducts.length}\nTotal: $${totalPrice.toFixed(
-        20.
+        2
       )}`
     );
 
